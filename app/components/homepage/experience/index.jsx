@@ -38,8 +38,7 @@ function Experience() {
 
           <div>
             <div className="flex flex-col gap-6">
-              {
-                experiences.map(experience => (
+ 
                   <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
                     <div className="p-3 relative">
                       <Image
@@ -51,7 +50,8 @@ function Experience() {
                       />
                       <div className="flex justify-center">
                         <p className="text-xs sm:text-sm text-[#16f2b3]">
-                          {experience.duration}
+                          {/* {experience.duration} */}
+                          April 2024 - Present
                         </p>
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
@@ -60,17 +60,18 @@ function Experience() {
                         </div>
                         <div>
                           <p className="text-base sm:text-xl mb-2 font-medium uppercase">
-                            {experience.title}
+                            {/* {experience.title} */}
+                            Python Developer
                           </p>
                           <p className="text-sm sm:text-base">
-                            {experience.company}
+                            {/* {experience.company} */}
+                            Abhiwan Technology pvt ltd
                           </p>
                         </div>
                       </div>
                     </div>
                   </GlowCard>
-                ))
-              }
+
             </div>
           </div>
         </div>

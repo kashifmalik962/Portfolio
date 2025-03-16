@@ -2,6 +2,7 @@
 
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
+import profileImg from "./profile.jpg"
 
 
 function AboutSection() {
@@ -19,12 +20,14 @@ function AboutSection() {
             Who I am?
           </p>
           <p className="text-gray-200 text-sm lg:text-lg">
-            {personalData.description}
+            {/* {personalData.description} */}
+            Skilled Python Developer | Expertise in Scalable Backend Systems & AI-Driven Applications. Innovative Python developer with hands-on experience in building efficient backend systems and user-friendly interfaces. Proficient in Flask, Django, FastAPI, and MongoDB. Developed impactful projects like employee monitoring software and an astrologer chatbot. Proven ability to optimize APIs for 30% faster responses, enhance database performance by 25%, and deliver projects on time with precision.
           </p>
         </div>
         <div className="flex justify-center order-1 lg:order-2">
           <Image
-            src={personalData.profile}
+            // src={personalData.profile}
+            src={profileImg}
             width={280}
             height={280}
             alt="Abu Said"
