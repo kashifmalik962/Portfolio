@@ -64,7 +64,7 @@ function Education() {
                     </div>
                     <div>
                       <p className="text-base sm:text-xl mb-2 font-medium uppercase">
-                        Bachelor's of Computer Application
+                        Bachelor of Computer Application
                       </p>
                       <p className="text-sm sm:text-base">Mangalayatan University</p>
                     </div>
